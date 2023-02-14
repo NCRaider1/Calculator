@@ -4,11 +4,11 @@ public class Calculator{
     public static void main(String[] args){
         Scanner reader = new Scanner(System.in);
         System.out.println( "Please Enter Two Numbers");
-        int num1 = reader.nextInt();
-        int num2 = reader.nextInt();
+        float num1 = reader.nextFloat();
+        float num2 = reader.nextFloat();
         System.out.println("Do you want to add or subtract?");
         char sign = reader.next().charAt(0);
-        int numTotal = 0;
+        float numTotal = 0;
         if(sign == '+'){
             numTotal = num1 + num2;
         }
