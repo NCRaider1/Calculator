@@ -15,6 +15,12 @@ public class Calculator{
         else if(sign == '-'){
             numTotal = num1 - num2;
         }
+        else if(sign == '*'){
+            numTotal = num1 * num2;
+        }
+        else if(sign == '/'){
+            numTotal = num1 / num2;
+        }
         System.out.println(numTotal);
     }
 }
